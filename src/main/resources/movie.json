@@ -1,0 +1,23 @@
+{
+  "title": "Intouchables",
+  "director": {
+    "name": "Olivier",
+    "lastName": "Nakache"
+  },
+  "date": 2011,
+  "genre": "drama",
+  "actors": [
+    {
+      "name": "François",
+      "lastName": " Cluzet"
+    },
+    {
+      "name": "Omar",
+      "lastName": "Sy"
+    },
+    {
+      "name": "Audrey",
+      "lastName": "Fleurot"
+    }
+  ]
+}
