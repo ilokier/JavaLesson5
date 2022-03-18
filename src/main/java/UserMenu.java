@@ -19,7 +19,7 @@ public class UserMenu {
     }
 
     public static int getIntFromUser() {
-        System.out.println("Pick a menu option: \n" + "1 – Print all films between year 1 and year 2\n" + "\n" + "2 – Print random film information\n" + "\n" + "3 – Print fims for choosen actor. Please write actor name and last name\n" + "\n" + "4 – End program");
+        System.out.println("\nPick a menu option:" + "\n1 – Print all films between year 1 and year 2" + "\n2 – Print random film information" + "\n3 – Print fims for choosen actor. Please write actor name and last name" + "\n4 – End program\n");
         return scan.nextInt();
     }
 }

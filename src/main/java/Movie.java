@@ -45,7 +45,7 @@ public class Movie {
 
     @Override
     public String toString() {
-        return "title: " + title + " \ndirector: " + director + " \ndate: " + date + " \ngenre: " + genre + "  \nactors: " + actors;
+        return "title: " + title + " \n director: " + director + " \n date: " + date + " \n genre: " + genre + "  \n actors: " + actors;
     }
 }
 

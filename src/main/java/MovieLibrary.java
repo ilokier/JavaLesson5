@@ -29,6 +29,7 @@ public class MovieLibrary {
     }
 
     public void getRandomFilm() {
+        System.out.println("Random film information: ");
         System.out.println(movies.get(random.nextInt(movies.size())).toString());
     }
 

@@ -9,10 +9,10 @@ public class Main {
     public static void main(String[] args) throws IOException {
 
         movieLibrary = FileInputHandler.getMoviesToList(path);
-        pickMenuOptions(movie);
+        pickMenuOptions();
     }
 
-    public static void pickMenuOptions(Movie movie){
+    public static void pickMenuOptions() {
         while (true) {
             int selectedOption = UserMenu.getIntFromUser();
             switch (selectedOption) {
