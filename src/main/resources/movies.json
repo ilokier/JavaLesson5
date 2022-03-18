@@ -57,7 +57,7 @@
       "actors": [
         {
           "name": "Tom",
-          "lastName": " Hanks"
+          "lastName": "Hanks"
         },
         {
           "name": "David",
@@ -89,6 +89,52 @@
         {
           "name": "Robert",
           "lastName": "Duvall"
+        }
+      ]
+    },
+    {
+      "title": "12 Angry Men",
+      "director": {
+        "name": "Sidney",
+        "lastName": "Lumet"
+      },
+      "date": 1957,
+      "genre": "drama",
+      "actors": [
+        {
+          "name": "Martin",
+          "lastName": "Balsam"
+        },
+        {
+          "name": "John",
+          "lastName": "Fiedler"
+        },
+        {
+          "name": "Jack",
+          "lastName": "Klugman"
+        }
+      ]
+    },
+    {
+      "title": "Forrest Gump",
+      "director": {
+        "name": "Robert",
+        "lastName": "Zemeckis"
+      },
+      "date": 1994,
+      "genre": "drama",
+      "actors": [
+        {
+          "name": "Tom",
+          "lastName": "Hanks"
+        },
+        {
+          "name": "Gary",
+          "lastName": "Sinise"
+        },
+        {
+          "name": "Sally",
+          "lastName": "Field"
         }
       ]
     }

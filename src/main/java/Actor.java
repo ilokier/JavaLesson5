@@ -2,9 +2,13 @@ public class Actor {
     private String name;
     private String lastName;
 
+
     public Actor(String name, String lastName) {
         this.name = name;
         this.lastName = lastName;
+    }
+
+    public Actor() {
     }
 
     public String getName() {
@@ -15,10 +19,8 @@ public class Actor {
         return lastName;
     }
 
-    public Actor() {
-    }
-
+    @Override
     public String toString() {
-        return "name: "+name +"lastName"+lastName;
+        return name + " " + lastName;
     }
 }

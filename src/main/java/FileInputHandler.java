@@ -6,7 +6,6 @@ import java.io.IOException;
 
 public class FileInputHandler {
 
-
     public static MovieLibrary getMoviesToList(File file) throws IOException {
         ObjectMapper mapper = new ObjectMapper();
         mapper.enable(DeserializationFeature.ACCEPT_SINGLE_VALUE_AS_ARRAY);
