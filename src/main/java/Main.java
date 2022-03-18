@@ -23,6 +23,7 @@ public class Main {
                     movieLibrary.getRandomFilm();
                     break;
                 case 3:
+                    //choose Tom Hanks ;)
                     movieLibrary.printMoviesWithChosenActors(UserMenu.getActorDataFromUser());
                     break;
                 case 4:
