@@ -15,18 +15,33 @@ public class MovieLibrary {
     }
 
     public void printMoviesWithChosenActors(Actor actor) {
-        for (Movie m : movies) {
-            for (int i = 0; i < m.getActors().size(); i++) {
-                if (m.getActors().get(i).getName().equals(actor.getName()) && m.getActors().get(i).getLastName().equals(actor.getLastName())) {
-                    filtredList.add(m);
-                }
-            }
-        }
         System.out.println("Your actor played in: ");
-        for (Movie movie : filtredList) {
-            System.out.println(movie.getTitle());
-        }
+        for (Movie m : movies) {
+              if (m.getActors().get(0).equals(actor)) {
+                filtredList.add(m);
+                System.out.println(m.getTitle());
+            }
+                   }
     }
+//        }System.out.println("Your actor played in: ");
+       // for (Movie movie : filtredList) {
+//            System.out.println(movie.getTitle());
+//        }
+//    }
+
+//    public void printMoviesWithChosenActors(Actor actor) {
+//        for (Movie m : movies) {
+//            for (int i = 0; i < m.getActors().size(); i++) {
+//                if (m.getActors().get(i).getName().equals(actor.getName()) && m.getActors().get(i).getLastName().equals(actor.getLastName())) {
+//                    filtredList.add(m);
+//                }
+//            }
+//        }
+//        System.out.println("Your actor played in: ");
+//        for (Movie movie : filtredList) {
+//            System.out.println(movie.getTitle());
+//        }
+//    }
 
     public void getRandomFilm() {
         System.out.println("Random film information: ");
