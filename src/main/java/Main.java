@@ -24,7 +24,7 @@ public class Main {
                     break;
                 case 3:
                     //choose Tom Hanks ;)
-                    movieLibrary.printMoviesWithChosenActors(UserMenu.getActorDataFromUser());
+                    movieLibrary.printMoviesWithChosenActor(UserMenu.getActorDataFromUser());
                     break;
                 case 4:
                     System.exit(0);

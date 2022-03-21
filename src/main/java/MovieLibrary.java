@@ -4,7 +4,6 @@ import java.util.Random;
 
 public class MovieLibrary {
     static Random random = new Random();
-    List<Movie> filtredList = new ArrayList<>(3);
     private List<Movie> movies;
 
     public MovieLibrary() {
@@ -14,12 +13,11 @@ public class MovieLibrary {
         return movies;
     }
 
-    public void printMoviesWithChosenActors(Actor actor) {
+    public void printMoviesWithChosenActor(Actor actor) {
         System.out.println("Your actor played in: ");
         for (Movie m : movies) {
             if (m.getActors().get(0).equals(actor)) {
-                filtredList.add(m);
-                System.out.println(m.getTitle());
+               System.out.println(m.getTitle());
             }
         }
     }
