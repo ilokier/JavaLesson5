@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
@@ -17,28 +16,24 @@ public class MovieLibrary {
         System.out.println("Your actor played in: ");
         for (Movie m : movies) {
             if (m.getActors().get(0).equals(actor)) {
-               System.out.println(m.getTitle());
+                System.out.println(m.getTitle());
             }
         }
     }
 
-    public void getRandomFilm() {
+    public void printRandomMovieInformation() {
         System.out.println("Random film information: ");
         System.out.println(movies.get(random.nextInt(movies.size())).toString());
     }
 
     public void printMoviesBetweenDate(int year1, int year2) {
-        List<Movie> filtredMoviesWithDate = new ArrayList<>();
+        System.out.println("Your movies are: ");
         for (Movie movie : movies) {
             if (movie.getDate() <= year2 & movie.getDate() >= year1) {
-                filtredMoviesWithDate.add(movie);
+                System.out.println(movie.getTitle());
+
             }
         }
-        System.out.println("Your movies are: ");
-        for (Movie movie : filtredMoviesWithDate) {
-            System.out.println(movie.getTitle());
-        }
-
     }
 
 }

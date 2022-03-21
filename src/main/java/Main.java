@@ -2,7 +2,6 @@ import java.io.File;
 import java.io.IOException;
 
 public class Main {
-    public static Movie movie = new Movie();
     public static MovieLibrary movieLibrary = new MovieLibrary();
     static File path = new File("./src/main/resources/movies.json");
 
@@ -20,7 +19,7 @@ public class Main {
                     movieLibrary.printMoviesBetweenDate(UserMenu.getDate(), UserMenu.getDate());
                     break;
                 case 2:
-                    movieLibrary.getRandomFilm();
+                    movieLibrary.printRandomMovieInformation();
                     break;
                 case 3:
                     //choose Tom Hanks ;)
